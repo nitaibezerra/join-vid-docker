@@ -1,0 +1,8 @@
+version: '2.1'
+services:
+    joinvid:
+        image: join-vids
+        restart: 'no'
+        volumes:
+            - ./input:/input
+            - ./output:/output
